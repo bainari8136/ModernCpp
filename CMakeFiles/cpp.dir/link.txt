@@ -1,0 +1,1 @@
+/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ -Wall -std=c++17 -fallow-void-main -lm -ldl -llog -lz CMakeFiles/cpp.dir/src/cxx11.cpp.o CMakeFiles/cpp.dir/src/main.cpp.o CMakeFiles/cpp.dir/src/polymorphism.cpp.o -o cpp 

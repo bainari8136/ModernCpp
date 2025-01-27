@@ -1,0 +1,3 @@
+/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles/edit_cache.dir
+/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles/rebuild_cache.dir
+/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles/cpp.dir
