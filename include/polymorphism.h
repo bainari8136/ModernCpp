@@ -7,13 +7,15 @@ namespace moderncpp {
 		
 		public:
 		
+		~Base(){}
 		virtual void show();
+		
 	};
 	
 	class Derived : public Base {
 		
 		public:
-		
+		~Derived(){}
 		void show() override ;
 		
 		

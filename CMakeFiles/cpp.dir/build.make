@@ -68,10 +68,24 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
+CMakeFiles/cpp.dir/src/container_utils.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/src/container_utils.cpp.o: src/container_utils.cpp
+CMakeFiles/cpp.dir/src/container_utils.cpp.o: CMakeFiles/cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/src/container_utils.cpp.o"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp.dir/src/container_utils.cpp.o -MF CMakeFiles/cpp.dir/src/container_utils.cpp.o.d -o CMakeFiles/cpp.dir/src/container_utils.cpp.o -c /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/container_utils.cpp
+
+CMakeFiles/cpp.dir/src/container_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/container_utils.cpp.i"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/container_utils.cpp > CMakeFiles/cpp.dir/src/container_utils.cpp.i
+
+CMakeFiles/cpp.dir/src/container_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/container_utils.cpp.s"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/container_utils.cpp -o CMakeFiles/cpp.dir/src/container_utils.cpp.s
+
 CMakeFiles/cpp.dir/src/cxx11.cpp.o: CMakeFiles/cpp.dir/flags.make
 CMakeFiles/cpp.dir/src/cxx11.cpp.o: src/cxx11.cpp
 CMakeFiles/cpp.dir/src/cxx11.cpp.o: CMakeFiles/cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/src/cxx11.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/src/cxx11.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp.dir/src/cxx11.cpp.o -MF CMakeFiles/cpp.dir/src/cxx11.cpp.o.d -o CMakeFiles/cpp.dir/src/cxx11.cpp.o -c /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/cxx11.cpp
 
 CMakeFiles/cpp.dir/src/cxx11.cpp.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/cpp.dir/src/cxx11.cpp.s: cmake_force
 CMakeFiles/cpp.dir/src/main.cpp.o: CMakeFiles/cpp.dir/flags.make
 CMakeFiles/cpp.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/cpp.dir/src/main.cpp.o: CMakeFiles/cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/src/main.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp.dir/src/main.cpp.o -MF CMakeFiles/cpp.dir/src/main.cpp.o.d -o CMakeFiles/cpp.dir/src/main.cpp.o -c /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/main.cpp
 
 CMakeFiles/cpp.dir/src/main.cpp.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/cpp.dir/src/main.cpp.s: cmake_force
 CMakeFiles/cpp.dir/src/polymorphism.cpp.o: CMakeFiles/cpp.dir/flags.make
 CMakeFiles/cpp.dir/src/polymorphism.cpp.o: src/polymorphism.cpp
 CMakeFiles/cpp.dir/src/polymorphism.cpp.o: CMakeFiles/cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/src/polymorphism.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/src/polymorphism.cpp.o"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp.dir/src/polymorphism.cpp.o -MF CMakeFiles/cpp.dir/src/polymorphism.cpp.o.d -o CMakeFiles/cpp.dir/src/polymorphism.cpp.o -c /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/polymorphism.cpp
 
 CMakeFiles/cpp.dir/src/polymorphism.cpp.i: cmake_force
@@ -110,21 +124,39 @@ CMakeFiles/cpp.dir/src/polymorphism.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/polymorphism.cpp.s"
 	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/polymorphism.cpp -o CMakeFiles/cpp.dir/src/polymorphism.cpp.s
 
+CMakeFiles/cpp.dir/src/sequence.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/src/sequence.cpp.o: src/sequence.cpp
+CMakeFiles/cpp.dir/src/sequence.cpp.o: CMakeFiles/cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp.dir/src/sequence.cpp.o"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp.dir/src/sequence.cpp.o -MF CMakeFiles/cpp.dir/src/sequence.cpp.o.d -o CMakeFiles/cpp.dir/src/sequence.cpp.o -c /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/sequence.cpp
+
+CMakeFiles/cpp.dir/src/sequence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/sequence.cpp.i"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/sequence.cpp > CMakeFiles/cpp.dir/src/sequence.cpp.i
+
+CMakeFiles/cpp.dir/src/sequence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/sequence.cpp.s"
+	/data/user/0/ru.iiec.cxxdroid/files/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/sequence.cpp -o CMakeFiles/cpp.dir/src/sequence.cpp.s
+
 # Object files for target cpp
 cpp_OBJECTS = \
+"CMakeFiles/cpp.dir/src/container_utils.cpp.o" \
 "CMakeFiles/cpp.dir/src/cxx11.cpp.o" \
 "CMakeFiles/cpp.dir/src/main.cpp.o" \
-"CMakeFiles/cpp.dir/src/polymorphism.cpp.o"
+"CMakeFiles/cpp.dir/src/polymorphism.cpp.o" \
+"CMakeFiles/cpp.dir/src/sequence.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
+cpp: CMakeFiles/cpp.dir/src/container_utils.cpp.o
 cpp: CMakeFiles/cpp.dir/src/cxx11.cpp.o
 cpp: CMakeFiles/cpp.dir/src/main.cpp.o
 cpp: CMakeFiles/cpp.dir/src/polymorphism.cpp.o
+cpp: CMakeFiles/cpp.dir/src/sequence.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

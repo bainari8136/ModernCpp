@@ -41,7 +41,7 @@ void moderncpp::C11Features::useLambdaExpression(){
 
 void moderncpp::C11Features::useThreads(){
 	
-	std::thread t([](){
+	std::thread childThread([](){
 		
 		std::cout<<"im a child thread"<<std::endl;
 	});
@@ -65,7 +65,7 @@ void moderncpp::C11Features::useAsync(){
 
 void moderncpp::C11Features::useRegex(){
 	
-	regex reg("\\d+");
+	std::regex reg("\\d+");
 	std::string str="123";
 	
 	std::cout<<regex_match(str,reg)<<std::endl;

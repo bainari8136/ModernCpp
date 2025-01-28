@@ -10,7 +10,7 @@
              
              public:
              
-             void useIntVector(std::vector<int>vec);
+             void useIntVector(std::vector<int>&vec);
          };
      }
 

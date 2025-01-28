@@ -128,6 +128,30 @@ cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
+src/container_utils.o: src/container_utils.cpp.o
+.PHONY : src/container_utils.o
+
+# target to build an object file
+src/container_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/src/container_utils.cpp.o
+.PHONY : src/container_utils.cpp.o
+
+src/container_utils.i: src/container_utils.cpp.i
+.PHONY : src/container_utils.i
+
+# target to preprocess a source file
+src/container_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/src/container_utils.cpp.i
+.PHONY : src/container_utils.cpp.i
+
+src/container_utils.s: src/container_utils.cpp.s
+.PHONY : src/container_utils.s
+
+# target to generate assembly for a file
+src/container_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/src/container_utils.cpp.s
+.PHONY : src/container_utils.cpp.s
+
 src/cxx11.o: src/cxx11.cpp.o
 .PHONY : src/cxx11.o
 
@@ -200,6 +224,30 @@ src/polymorphism.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/src/polymorphism.cpp.s
 .PHONY : src/polymorphism.cpp.s
 
+src/sequence.o: src/sequence.cpp.o
+.PHONY : src/sequence.o
+
+# target to build an object file
+src/sequence.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/src/sequence.cpp.o
+.PHONY : src/sequence.cpp.o
+
+src/sequence.i: src/sequence.cpp.i
+.PHONY : src/sequence.i
+
+# target to preprocess a source file
+src/sequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/src/sequence.cpp.i
+.PHONY : src/sequence.cpp.i
+
+src/sequence.s: src/sequence.cpp.s
+.PHONY : src/sequence.s
+
+# target to generate assembly for a file
+src/sequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/src/sequence.cpp.s
+.PHONY : src/sequence.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,6 +257,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp"
+	@echo "... src/container_utils.o"
+	@echo "... src/container_utils.i"
+	@echo "... src/container_utils.s"
 	@echo "... src/cxx11.o"
 	@echo "... src/cxx11.i"
 	@echo "... src/cxx11.s"
@@ -218,6 +269,9 @@ help:
 	@echo "... src/polymorphism.o"
 	@echo "... src/polymorphism.i"
 	@echo "... src/polymorphism.s"
+	@echo "... src/sequence.o"
+	@echo "... src/sequence.i"
+	@echo "... src/sequence.s"
 .PHONY : help
 
 

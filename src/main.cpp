@@ -1,9 +1,10 @@
 #include "cxx11.h"
 #include "polymorphism.h"
+#include "containers/sequence.h"
 
 #include <iostream>
 #include <memory>
-
+#include <vector>
 using namespace moderncpp;
 
 
@@ -26,5 +27,15 @@ int main(){
     auto derived=std::make_unique<Derived>();
     
     derived->show();
-    
+	
+	/*** Sequence containers ***/
+    /** 1. Vector **/
+	auto seq_container=std::make_unique<SequenceContainers>();
+	
+	
+	std::vector<int>int_vec;
+	
+	seq_container->useIntVector(int_vec);
+	
+	
 }

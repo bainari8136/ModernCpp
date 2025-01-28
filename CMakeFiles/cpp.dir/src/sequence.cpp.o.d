@@ -1,6 +1,7 @@
-CMakeFiles/cpp.dir/src/cxx11.cpp.o: \
-  /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/cxx11.cpp \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/chrono \
+CMakeFiles/cpp.dir/src/sequence.cpp.o: \
+  /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/src/sequence.cpp \
+  /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/include/containers/sequence.h \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/vector \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__config \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/features.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/sys/cdefs.h \
@@ -9,9 +10,13 @@ CMakeFiles/cpp.dir/src/cxx11.cpp.o: \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/get_device_api_level_inlines.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/android/ndk-version.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/pthread.h \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ctime \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/time.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/sys/time.h \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iosfwd \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/wchar.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include/wchar.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/wchar.h \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdio.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include/stdio.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/stdio.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/sys/types.h \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stddef.h \
   /data/data/ru.iiec.cxxdroid/files/lib/clang/9.0.1/include/stddef.h \
@@ -33,6 +38,11 @@ CMakeFiles/cpp.dir/src/cxx11.cpp.o: \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/asm-generic/posix_types.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/pthread_types.h \
+  /data/data/ru.iiec.cxxdroid/files/lib/clang/9.0.1/include/stdarg.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/seek_constants.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/struct_file.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/time.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/sys/time.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/linux/time.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/linux/time_types.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/sys/select.h \
@@ -56,26 +66,28 @@ CMakeFiles/cpp.dir/src/cxx11.cpp.o: \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/sys/user.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/android/legacy_signal_inlines.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/xlocale.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/mbstate_t.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/wctype.h \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__bit_reference \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/bit \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/limits \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/type_traits \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstddef \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/version \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ratio \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdint \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/climits \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__undef_macros \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/limits \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/future \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/system_error \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__errc \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cerrno \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/errno.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/errno.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/linux/errno.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/arm-linux-androideabi/asm/errno.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/asm-generic/errno.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/asm-generic/errno-base.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/android/legacy_errno_inlines.h \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdexcept \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__debug \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/algorithm \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/initializer_list \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstring \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/string.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/strcasecmp.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/strings.h \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/utility \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__tuple \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdint \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/memory \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/typeinfo \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/exception \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdlib \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdlib.h \
@@ -85,48 +97,40 @@ CMakeFiles/cpp.dir/src/cxx11.cpp.o: \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/wait.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/linux/wait.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/malloc.h \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdio.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include/stdio.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/stdio.h \
-  /data/data/ru.iiec.cxxdroid/files/lib/clang/9.0.1/include/stdarg.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/seek_constants.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/struct_file.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/android/legacy_stdlib_inlines.h \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/math.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include/math.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/math.h \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iosfwd \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/wchar.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include/wchar.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/wchar.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/mbstate_t.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/wctype.h \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__functional_base \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/typeinfo \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/new \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/utility \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__tuple \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/initializer_list \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstring \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/string.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/bits/strcasecmp.h \
-  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/strings.h \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__debug \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string_view \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__string \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/algorithm \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/memory \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iterator \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__functional_base \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/tuple \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdexcept \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/atomic \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__threading_support \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/chrono \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ctime \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ratio \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/climits \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/errno.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/errno.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/linux/errno.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/arm-linux-androideabi/asm/errno.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/asm-generic/errno.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/asm-generic/errno-base.h \
+  /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/android/legacy_errno_inlines.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/sched.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/linux/sched.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/semaphore.h \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/functional \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/bit \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__split_buffer \
+  /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/include/utils/container_utils.h \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iostream \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ios \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__locale \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string_view \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__string \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdio \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cwchar \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cwctype \
@@ -139,10 +143,9 @@ CMakeFiles/cpp.dir/src/cxx11.cpp.o: \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/wctype.h \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/mutex \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__mutex_base \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/thread \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iostream \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ios \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__locale \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/system_error \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__errc \
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cerrno \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/locale.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/local/include/locale.h \
   /data/user/0/ru.iiec.cxxdroid/files/sysroot/usr/include/locale.h \
@@ -153,10 +156,4 @@ CMakeFiles/cpp.dir/src/cxx11.cpp.o: \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/locale \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdarg \
   /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__bsd_locale_fallbacks.h \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/bitset \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__bit_reference \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/regex \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/vector \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__split_buffer \
-  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/deque \
-  /storage/emulated/0/Android/data/ru.iiec.cxxdroid/files/ModernCpp/include/cxx11.h
+  /data/user/0/ru.iiec.cxxdroid/files/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/bitset
