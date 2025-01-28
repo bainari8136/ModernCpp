@@ -7,7 +7,7 @@ namespace moderncpp {
 		
 		public:
 		
-		~Base(){}
+		virtual ~Base(){}
 		virtual void show();
 		
 	};

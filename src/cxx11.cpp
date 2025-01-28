@@ -46,7 +46,7 @@ void moderncpp::C11Features::useThreads(){
 		std::cout<<"im a child thread"<<std::endl;
 	});
 	
-	t.join();
+	childThread.join();
 }
 
 void moderncpp::C11Features::useAsync(){
